@@ -47,11 +47,12 @@ header{
 }
 
 .blue{
-    background-color: blue;
-    height: 325px;
+    height:350px;
     margin-top: 10px;
     background-image: url(./img/jumbo.png);
-    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .borders{
@@ -59,9 +60,11 @@ header{
 }
 
 .pink-box{
-    background-color: blueviolet;
     height: 300px;
     width: 50%;
+    color: white;
+    text-align: center;
+    padding: 40px 40px;
 }
      
 .white{
@@ -148,4 +151,20 @@ header{
 .foot-button{
     background-color: rgb(250, 182, 195) ;
     padding: 5px 5px 5px 5px;
+}
+
+#header-p{
+    font-size: 15px ;
+    padding: 0px 20px;
+    line-height: 155%;
+    padding-bottom: 20px;
+}
+
+#header-title{
+    padding-bottom: 25px;
+    font-size: 35px;
+}
+
+.title-box{
+    
 }
