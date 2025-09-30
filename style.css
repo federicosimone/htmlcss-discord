@@ -1,0 +1,151 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-color:rgb(37, 92, 232);
+    min-height: 60px;
+    padding-top: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange-flex-container {
+    display: flex;
+    width: 70%;
+    background-color: rgb(217, 164, 30);
+}
+
+.orange-flex-container div{
+    padding: 10px 5px;
+}
+
+.logo-box{
+    width: 25%;
+}
+
+.link-box{
+    width: 50%;
+    text-align: center;
+}
+
+.login-box{
+    width: 25%;
+    text-align: right;  
+}
+
+.blue{
+    background-color: blue;
+    height: 325px;
+    margin-top: 10px;
+    background-image: url(./img/jumbo.png);
+    background-size: 1000px;
+}
+
+.borders{
+    border: 1px dashed;
+}
+
+.pink-box{
+    background-color: blueviolet;
+    height: 300px;
+    width: 50%;
+}
+     
+.white{
+    min-height: 400px;
+}
+
+.lightblue-box{
+    background-color: rgb(31, 143, 255);
+    min-height: 300px;
+    width: 40%;
+}
+
+.lightpink-box{
+    background-color: rgb(255, 191, 202);
+    min-height: 300px;
+    width: 30%;
+}
+
+.gray{
+    background-color: rgb(212, 212, 212) ;
+    min-height: 400px;
+}
+
+.graygreen{
+    background-color: rgb(212, 212, 212) ;
+    min-height: 700px
+}
+
+.green-box {
+    background-color: rgb(34, 140, 34) ;
+    min-height: 600px;
+    width: 70%;
+}
+
+.dark{
+    background-color: rgb(34, 38, 41) ;
+    min-height: 600px;
+    margin-bottom: 2px;
+}
+
+.salmon-box{
+    background-color:rgb(240, 129, 127) ;
+    min-height: 580px;
+    width: 25% ;
+}
+
+.darkbottom{
+    background-color: rgb(34, 38, 41) ;
+    min-height: 100px;
+    margin-bottom: 1px;
+}
+
+.dark-flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.blumarine-box{
+    background-color: rgb(32, 179, 169) ;
+    min-height: 580px;
+    width: 45%;
+}
+
+.bluemarine-son{
+    width: 25%;
+    min-height: 580px;
+    border: 1px dashed white;
+}
+
+.lowbar{
+    background-color: rgb(128, 255, 212);
+    min-height: 80px;
+    width: 70%;
+    margin-bottom: 0;
+}
+
+.footerflex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-button{
+    background-color: rgb(250, 182, 195) ;
+    padding: 5px 5px 5px 5px;
+}
