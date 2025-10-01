@@ -72,6 +72,7 @@ header{
     min-height: 400px;
     max-width: 1093px;
     margin: 0 auto;
+    margin-bottom: 75px;
 }
 
 .lightblue-box{
@@ -88,7 +89,7 @@ header{
 
 .gray{
     background-color: rgb(212, 212, 212) ;
-    min-height: 400px;
+    min-height: 500px;
 }
 
 .graygreen{
@@ -97,21 +98,24 @@ header{
 }
 
 .green-box {
-    background-color: rgb(34, 140, 34) ;
+    margin-top: 100px;
     min-height: 600px;
     width: 70%;
+    text-align: center;
 }
 
 .dark{
     background-color: rgb(34, 38, 41) ;
-    min-height: 600px;
+    min-height: 350px;
     margin-bottom: 2px;
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
 
 .salmon-box{
-    background-color:rgb(240, 129, 127) ;
-    min-height: 580px;
+    min-height: 350px;
     width: 25% ;
+    padding-right: 150px;
 }
 
 .darkbottom{
@@ -120,26 +124,25 @@ header{
     margin-bottom: 1px;
 }
 
-.dark-flex-container{
+.dark-flex-container {
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
 .blumarine-box{
-    background-color: rgb(32, 179, 169) ;
-    min-height: 580px;
+    min-height: 350px;
     width: 45%;
 }
 
 .bluemarine-son{
     width: 25%;
-    min-height: 580px;
-    border: 1px dashed white;
+    min-height: 350px;
+    color: rgb(113, 134, 217) ;
+    font-weight: 600;
 }
 
 .lowbar{
-    background-color: rgb(128, 255, 212);
     min-height: 80px;
     width: 70%;
     margin-bottom: 0;
@@ -152,7 +155,6 @@ header{
 }
 
 .foot-button{
-    background-color: rgb(250, 182, 195) ;
     padding: 5px 5px 5px 5px;
 }
 
@@ -218,6 +220,8 @@ header{
 }
 h2{
     font-size: 30px;
+    margin-bottom: 28px;
+    color: rgb(36, 41, 40);
 }
 
 .text-1{
@@ -226,12 +230,69 @@ h2{
     padding-right: 35px;
 }
 
-.text-1 h2{
-    margin-bottom: 28px;
-}
-
 p {
-    text-align: 23px;
+    line-height: 23px;
     font-weight: 200;
     font-size: 14px;
 }
+
+.text-2{
+    padding-left: 80px;
+}
+
+.voice-img{
+    height: 355px;
+    margin-left: 20px ;
+}
+
+.genius-img{
+    height: 355px;
+    margin-top: 65px;
+    margin-right: 10pxs
+}
+
+.green-box p {
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.dark h2{
+    color: rgb(113, 134, 217)
+}
+
+.marine-flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.bluemarine-son p{
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.bluemarine-son a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.bluemarine-son div{
+    padding-bottom: 10px;
+}
+
+details{
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+}
+#ita {
+    height: 12px;
+}
+
+.sign-button{
+    background-color: rgb(145, 160, 230);
+    color: white;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
