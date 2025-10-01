@@ -3,6 +3,7 @@
     margin: 0 ;
     box-sizing: border-box;
     font-family: sans-serif;
+    font-weight: 600;
 }
 
 header{
@@ -158,6 +159,7 @@ header{
     padding: 0px 20px;
     line-height: 155%;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 #header-title{
@@ -185,6 +187,7 @@ header{
 .white-button{
     background-color: white;
     border: none;
+    cursor: pointer;
 }
 
 .text-login{
@@ -203,4 +206,13 @@ header{
     background-color:rgb(34, 38, 41);
     border: none;
     color: white;
+    cursor: pointer;
+}
+
+.body-img{
+    width: 480px;
+    margin-top: 40px;
+}
+.text-box {
+    
 }
