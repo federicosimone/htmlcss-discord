@@ -25,7 +25,7 @@ header{
 .orange-flex-container {
     display: flex;
     width: 70%;
-    background-color: rgb(217, 164, 30);
+    align-items: center;
 }
 
 .orange-flex-container div{
@@ -154,17 +154,53 @@ header{
 }
 
 #header-p{
-    font-size: 15px ;
+    font-size: 13px ;
     padding: 0px 20px;
     line-height: 155%;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 #header-title{
-    padding-bottom: 25px;
+    margin-bottom: 25px;
     font-size: 35px;
 }
 
-.title-box{
-    
+.logo-discord{
+    width: 90px;
+}
+
+.link-flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link-box a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.white-button{
+    background-color: white;
+    border: none;
+}
+
+.text-login{
+    font-size: 12px;
+    padding: 7px 11px;
+    border-radius: 15px ;
+}
+
+.mac{
+    padding: 9px 19px;
+    border-radius: 25px;
+    font-size: 12px;
+}
+
+.dark-button{
+    background-color:rgb(34, 38, 41);
+    border: none;
+    color: white;
 }
